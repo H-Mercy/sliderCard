@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EEA19BF2570D32E00EEA0F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19BE2570D32E00EEA0F5 /* AppDelegate.m */; };
+		1EEA19C22570D32E00EEA0F5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19C12570D32E00EEA0F5 /* SceneDelegate.m */; };
+		1EEA19C52570D32E00EEA0F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19C42570D32E00EEA0F5 /* ViewController.m */; };
+		1EEA19C82570D32E00EEA0F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA19C62570D32E00EEA0F5 /* Main.storyboard */; };
+		1EEA19CA2570D33100EEA0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA19C92570D33100EEA0F5 /* Assets.xcassets */; };
+		1EEA19CD2570D33100EEA0F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA19CB2570D33100EEA0F5 /* LaunchScreen.storyboard */; };
+		1EEA19D02570D33100EEA0F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19CF2570D33100EEA0F5 /* main.m */; };
+		1EEA19DA2570D33100EEA0F5 /* sliderCardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19D92570D33100EEA0F5 /* sliderCardDemoTests.m */; };
+		1EEA19E52570D33100EEA0F5 /* sliderCardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19E42570D33100EEA0F5 /* sliderCardDemoUITests.m */; };
+		1EEA19FE2570D36E00EEA0F5 /* XLCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19F62570D36E00EEA0F5 /* XLCardCell.m */; };
+		1EEA19FF2570D36E00EEA0F5 /* XLCardSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19F82570D36E00EEA0F5 /* XLCardSwitch.m */; };
+		1EEA1A002570D36E00EEA0F5 /* XLCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19FC2570D36E00EEA0F5 /* XLCardModel.m */; };
+		1EEA1A012570D36E00EEA0F5 /* XLCardSwitchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA19FD2570D36E00EEA0F5 /* XLCardSwitchFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EEA19D62570D33100EEA0F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EEA19B22570D32E00EEA0F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEA19B92570D32E00EEA0F5;
+			remoteInfo = sliderCardDemo;
+		};
+		1EEA19E12570D33100EEA0F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EEA19B22570D32E00EEA0F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEA19B92570D32E00EEA0F5;
+			remoteInfo = sliderCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EEA19BA2570D32E00EEA0F5 /* sliderCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sliderCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEA19BD2570D32E00EEA0F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EEA19BE2570D32E00EEA0F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EEA19C02570D32E00EEA0F5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1EEA19C12570D32E00EEA0F5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1EEA19C32570D32E00EEA0F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EEA19C42570D32E00EEA0F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EEA19C72570D32E00EEA0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EEA19C92570D33100EEA0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EEA19CC2570D33100EEA0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EEA19CE2570D33100EEA0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEA19CF2570D33100EEA0F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EEA19D52570D33100EEA0F5 /* sliderCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEA19D92570D33100EEA0F5 /* sliderCardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderCardDemoTests.m; sourceTree = "<group>"; };
+		1EEA19DB2570D33100EEA0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEA19E02570D33100EEA0F5 /* sliderCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEA19E42570D33100EEA0F5 /* sliderCardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderCardDemoUITests.m; sourceTree = "<group>"; };
+		1EEA19E62570D33100EEA0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEA19F62570D36E00EEA0F5 /* XLCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardCell.m; sourceTree = "<group>"; };
+		1EEA19F72570D36E00EEA0F5 /* XLCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardModel.h; sourceTree = "<group>"; };
+		1EEA19F82570D36E00EEA0F5 /* XLCardSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardSwitch.m; sourceTree = "<group>"; };
+		1EEA19F92570D36E00EEA0F5 /* XLCardSwitchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardSwitchFlowLayout.h; sourceTree = "<group>"; };
+		1EEA19FA2570D36E00EEA0F5 /* XLCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardCell.h; sourceTree = "<group>"; };
+		1EEA19FB2570D36E00EEA0F5 /* XLCardSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardSwitch.h; sourceTree = "<group>"; };
+		1EEA19FC2570D36E00EEA0F5 /* XLCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardModel.m; sourceTree = "<group>"; };
+		1EEA19FD2570D36E00EEA0F5 /* XLCardSwitchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardSwitchFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EEA19B72570D32E00EEA0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEA19D22570D33100EEA0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEA19DD2570D33100EEA0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EEA19B12570D32E00EEA0F5 = {
+			isa = PBXGroup;
+			children = (
+				1EEA19BC2570D32E00EEA0F5 /* sliderCardDemo */,
+				1EEA19D82570D33100EEA0F5 /* sliderCardDemoTests */,
+				1EEA19E32570D33100EEA0F5 /* sliderCardDemoUITests */,
+				1EEA19BB2570D32E00EEA0F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EEA19BB2570D32E00EEA0F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA19BA2570D32E00EEA0F5 /* sliderCardDemo.app */,
+				1EEA19D52570D33100EEA0F5 /* sliderCardDemoTests.xctest */,
+				1EEA19E02570D33100EEA0F5 /* sliderCardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EEA19BC2570D32E00EEA0F5 /* sliderCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA19F52570D36E00EEA0F5 /* SliderCard */,
+				1EEA19BD2570D32E00EEA0F5 /* AppDelegate.h */,
+				1EEA19BE2570D32E00EEA0F5 /* AppDelegate.m */,
+				1EEA19C02570D32E00EEA0F5 /* SceneDelegate.h */,
+				1EEA19C12570D32E00EEA0F5 /* SceneDelegate.m */,
+				1EEA19C32570D32E00EEA0F5 /* ViewController.h */,
+				1EEA19C42570D32E00EEA0F5 /* ViewController.m */,
+				1EEA19C62570D32E00EEA0F5 /* Main.storyboard */,
+				1EEA19C92570D33100EEA0F5 /* Assets.xcassets */,
+				1EEA19CB2570D33100EEA0F5 /* LaunchScreen.storyboard */,
+				1EEA19CE2570D33100EEA0F5 /* Info.plist */,
+				1EEA19CF2570D33100EEA0F5 /* main.m */,
+			);
+			path = sliderCardDemo;
+			sourceTree = "<group>";
+		};
+		1EEA19D82570D33100EEA0F5 /* sliderCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA19D92570D33100EEA0F5 /* sliderCardDemoTests.m */,
+				1EEA19DB2570D33100EEA0F5 /* Info.plist */,
+			);
+			path = sliderCardDemoTests;
+			sourceTree = "<group>";
+		};
+		1EEA19E32570D33100EEA0F5 /* sliderCardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA19E42570D33100EEA0F5 /* sliderCardDemoUITests.m */,
+				1EEA19E62570D33100EEA0F5 /* Info.plist */,
+			);
+			path = sliderCardDemoUITests;
+			sourceTree = "<group>";
+		};
+		1EEA19F52570D36E00EEA0F5 /* SliderCard */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA19F62570D36E00EEA0F5 /* XLCardCell.m */,
+				1EEA19F72570D36E00EEA0F5 /* XLCardModel.h */,
+				1EEA19F82570D36E00EEA0F5 /* XLCardSwitch.m */,
+				1EEA19F92570D36E00EEA0F5 /* XLCardSwitchFlowLayout.h */,
+				1EEA19FA2570D36E00EEA0F5 /* XLCardCell.h */,
+				1EEA19FB2570D36E00EEA0F5 /* XLCardSwitch.h */,
+				1EEA19FC2570D36E00EEA0F5 /* XLCardModel.m */,
+				1EEA19FD2570D36E00EEA0F5 /* XLCardSwitchFlowLayout.m */,
+			);
+			path = SliderCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EEA19B92570D32E00EEA0F5 /* sliderCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEA19E92570D33100EEA0F5 /* Build configuration list for PBXNativeTarget "sliderCardDemo" */;
+			buildPhases = (
+				1EEA19B62570D32E00EEA0F5 /* Sources */,
+				1EEA19B72570D32E00EEA0F5 /* Frameworks */,
+				1EEA19B82570D32E00EEA0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sliderCardDemo;
+			productName = sliderCardDemo;
+			productReference = 1EEA19BA2570D32E00EEA0F5 /* sliderCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EEA19D42570D33100EEA0F5 /* sliderCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEA19EC2570D33100EEA0F5 /* Build configuration list for PBXNativeTarget "sliderCardDemoTests" */;
+			buildPhases = (
+				1EEA19D12570D33100EEA0F5 /* Sources */,
+				1EEA19D22570D33100EEA0F5 /* Frameworks */,
+				1EEA19D32570D33100EEA0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EEA19D72570D33100EEA0F5 /* PBXTargetDependency */,
+			);
+			name = sliderCardDemoTests;
+			productName = sliderCardDemoTests;
+			productReference = 1EEA19D52570D33100EEA0F5 /* sliderCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EEA19DF2570D33100EEA0F5 /* sliderCardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEA19EF2570D33100EEA0F5 /* Build configuration list for PBXNativeTarget "sliderCardDemoUITests" */;
+			buildPhases = (
+				1EEA19DC2570D33100EEA0F5 /* Sources */,
+				1EEA19DD2570D33100EEA0F5 /* Frameworks */,
+				1EEA19DE2570D33100EEA0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EEA19E22570D33100EEA0F5 /* PBXTargetDependency */,
+			);
+			name = sliderCardDemoUITests;
+			productName = sliderCardDemoUITests;
+			productReference = 1EEA19E02570D33100EEA0F5 /* sliderCardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EEA19B22570D32E00EEA0F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1EEA19B92570D32E00EEA0F5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1EEA19D42570D33100EEA0F5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1EEA19B92570D32E00EEA0F5;
+					};
+					1EEA19DF2570D33100EEA0F5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1EEA19B92570D32E00EEA0F5;
+					};
+				};
+			};
+			buildConfigurationList = 1EEA19B52570D32E00EEA0F5 /* Build configuration list for PBXProject "sliderCardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EEA19B12570D32E00EEA0F5;
+			productRefGroup = 1EEA19BB2570D32E00EEA0F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EEA19B92570D32E00EEA0F5 /* sliderCardDemo */,
+				1EEA19D42570D33100EEA0F5 /* sliderCardDemoTests */,
+				1EEA19DF2570D33100EEA0F5 /* sliderCardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EEA19B82570D32E00EEA0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEA19CD2570D33100EEA0F5 /* LaunchScreen.storyboard in Resources */,
+				1EEA19CA2570D33100EEA0F5 /* Assets.xcassets in Resources */,
+				1EEA19C82570D32E00EEA0F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEA19D32570D33100EEA0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEA19DE2570D33100EEA0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EEA19B62570D32E00EEA0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEA19C52570D32E00EEA0F5 /* ViewController.m in Sources */,
+				1EEA1A012570D36E00EEA0F5 /* XLCardSwitchFlowLayout.m in Sources */,
+				1EEA1A002570D36E00EEA0F5 /* XLCardModel.m in Sources */,
+				1EEA19FE2570D36E00EEA0F5 /* XLCardCell.m in Sources */,
+				1EEA19BF2570D32E00EEA0F5 /* AppDelegate.m in Sources */,
+				1EEA19D02570D33100EEA0F5 /* main.m in Sources */,
+				1EEA19C22570D32E00EEA0F5 /* SceneDelegate.m in Sources */,
+				1EEA19FF2570D36E00EEA0F5 /* XLCardSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEA19D12570D33100EEA0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEA19DA2570D33100EEA0F5 /* sliderCardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEA19DC2570D33100EEA0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEA19E52570D33100EEA0F5 /* sliderCardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EEA19D72570D33100EEA0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EEA19B92570D32E00EEA0F5 /* sliderCardDemo */;
+			targetProxy = 1EEA19D62570D33100EEA0F5 /* PBXContainerItemProxy */;
+		};
+		1EEA19E22570D33100EEA0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EEA19B92570D32E00EEA0F5 /* sliderCardDemo */;
+			targetProxy = 1EEA19E12570D33100EEA0F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EEA19C62570D32E00EEA0F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EEA19C72570D32E00EEA0F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EEA19CB2570D33100EEA0F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EEA19CC2570D33100EEA0F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EEA19E72570D33100EEA0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EEA19E82570D33100EEA0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EEA19EA2570D33100EEA0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sliderCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliderCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EEA19EB2570D33100EEA0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sliderCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliderCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EEA19ED2570D33100EEA0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sliderCardDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliderCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sliderCardDemo.app/sliderCardDemo";
+			};
+			name = Debug;
+		};
+		1EEA19EE2570D33100EEA0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sliderCardDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliderCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sliderCardDemo.app/sliderCardDemo";
+			};
+			name = Release;
+		};
+		1EEA19F02570D33100EEA0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sliderCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliderCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sliderCardDemo;
+			};
+			name = Debug;
+		};
+		1EEA19F12570D33100EEA0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sliderCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliderCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sliderCardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEA19B52570D32E00EEA0F5 /* Build configuration list for PBXProject "sliderCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA19E72570D33100EEA0F5 /* Debug */,
+				1EEA19E82570D33100EEA0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEA19E92570D33100EEA0F5 /* Build configuration list for PBXNativeTarget "sliderCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA19EA2570D33100EEA0F5 /* Debug */,
+				1EEA19EB2570D33100EEA0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEA19EC2570D33100EEA0F5 /* Build configuration list for PBXNativeTarget "sliderCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA19ED2570D33100EEA0F5 /* Debug */,
+				1EEA19EE2570D33100EEA0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEA19EF2570D33100EEA0F5 /* Build configuration list for PBXNativeTarget "sliderCardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA19F02570D33100EEA0F5 /* Debug */,
+				1EEA19F12570D33100EEA0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EEA19B22570D32E00EEA0F5 /* Project object */;
+}
